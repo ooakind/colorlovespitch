@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Quiz from "./Quiz";
+import AppContext from "./AppContext";
 
 class App extends Component {
   state = {
@@ -20,9 +21,11 @@ class App extends Component {
   render() {
     return (
       <div>
-        {this.state.pitches.map(p => (
-          <div>{p.name}</div>
-        ))}
+        <AppContext.Provider value={{ pitches: this.state.pitches }}>
+          <Router>
+            <Route exact path="/quiz" render={props => <Quiz {...props} />} />
+          </Router>
+        </AppContext.Provider>
       </div>
     );
   }
