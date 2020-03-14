@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import Quiz from "./Quiz";
 import Header from "./Header";
 import AppContext from "./AppContext";
@@ -24,8 +24,8 @@ class App extends Component {
       <div>
         <AppContext.Provider value={{ pitches: this.state.pitches }}>
           <Header />
-          <Router>
-            <Route exact path="/quiz" render={props => <Quiz {...props} />} />
+          <Router basename="/">
+            <Route exact path="/" render={props => <Quiz {...props} />} />
           </Router>
         </AppContext.Provider>
       </div>
