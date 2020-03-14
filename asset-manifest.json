@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/colorlovespitch/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/colorlovespitch/static/js/main.4b9e43a4.chunk.js",
+    "main.js.map": "/colorlovespitch/static/js/main.4b9e43a4.chunk.js.map",
+    "runtime-main.js": "/colorlovespitch/static/js/runtime-main.7a0fa894.js",
+    "runtime-main.js.map": "/colorlovespitch/static/js/runtime-main.7a0fa894.js.map",
+    "static/js/2.442e38d7.chunk.js": "/colorlovespitch/static/js/2.442e38d7.chunk.js",
+    "static/js/2.442e38d7.chunk.js.map": "/colorlovespitch/static/js/2.442e38d7.chunk.js.map",
+    "index.html": "/colorlovespitch/index.html",
+    "precache-manifest.ba46a1ea72cf1b50f8a3a7888b5bbf3a.js": "/colorlovespitch/precache-manifest.ba46a1ea72cf1b50f8a3a7888b5bbf3a.js",
+    "service-worker.js": "/colorlovespitch/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/colorlovespitch/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.442e38d7.chunk.js.LICENSE.txt": "/colorlovespitch/static/js/2.442e38d7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a0fa894.js",
+    "static/js/2.442e38d7.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.4b9e43a4.chunk.js"
+  ]
+}
