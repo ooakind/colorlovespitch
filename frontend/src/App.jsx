@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Quiz from "./Quiz";
+import Header from "./Header";
 import AppContext from "./AppContext";
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
     return (
       <div>
         <AppContext.Provider value={{ pitches: this.state.pitches }}>
+          <Header />
           <Router>
             <Route exact path="/quiz" render={props => <Quiz {...props} />} />
           </Router>
