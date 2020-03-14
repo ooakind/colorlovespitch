@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "192fb1d9f7f715bc76d2150a9c3b1f0c",
+    "revision": "7d899fe29665fbfeb50eb1b652e3f450",
     "url": "/colorlovespitch/index.html"
   },
   {
-    "revision": "2281e77a65a2f303ee0f",
+    "revision": "b5cbc8bb992eb8f2b9d5",
     "url": "/colorlovespitch/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "7c683dc58a7ed9697251",
-    "url": "/colorlovespitch/static/js/2.442e38d7.chunk.js"
+    "revision": "d66ad4ce0c93eb741c3a",
+    "url": "/colorlovespitch/static/js/2.c1af4a32.chunk.js"
   },
   {
     "revision": "eff3b4d7e4bb0087ce53139cd90bc880",
-    "url": "/colorlovespitch/static/js/2.442e38d7.chunk.js.LICENSE.txt"
+    "url": "/colorlovespitch/static/js/2.c1af4a32.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2281e77a65a2f303ee0f",
-    "url": "/colorlovespitch/static/js/main.35154b9e.chunk.js"
+    "revision": "b5cbc8bb992eb8f2b9d5",
+    "url": "/colorlovespitch/static/js/main.3e85c2dd.chunk.js"
   },
   {
     "revision": "e22366126c704bb129e1",
