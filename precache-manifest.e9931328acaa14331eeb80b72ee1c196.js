@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dc59b5ac98bfb6522b4f854b8e23938c",
+    "revision": "192fb1d9f7f715bc76d2150a9c3b1f0c",
     "url": "/colorlovespitch/index.html"
   },
   {
-    "revision": "8484824b0d6f124e1693",
+    "revision": "2281e77a65a2f303ee0f",
     "url": "/colorlovespitch/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/colorlovespitch/static/js/2.442e38d7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8484824b0d6f124e1693",
-    "url": "/colorlovespitch/static/js/main.0a72dd37.chunk.js"
+    "revision": "2281e77a65a2f303ee0f",
+    "url": "/colorlovespitch/static/js/main.35154b9e.chunk.js"
   },
   {
     "revision": "e22366126c704bb129e1",
