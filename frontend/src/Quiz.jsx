@@ -25,18 +25,18 @@ let getRandomInt = (min, max) => {
 };
 
 const audio = [];
-audio.push(new Audio("/colorlovespitch/C4.mp3"));
-audio.push(new Audio("/colorlovespitch/Db4.mp3"));
-audio.push(new Audio("/colorlovespitch/D4.mp3"));
-audio.push(new Audio("/colorlovespitch/Eb4.mp3"));
-audio.push(new Audio("/colorlovespitch/E4.mp3"));
-audio.push(new Audio("/colorlovespitch/F3.mp3"));
-audio.push(new Audio("/colorlovespitch/Gb3.mp3"));
-audio.push(new Audio("/colorlovespitch/G3.mp3"));
-audio.push(new Audio("/colorlovespitch/Ab3.mp3"));
-audio.push(new Audio("/colorlovespitch/A3.mp3"));
-audio.push(new Audio("/colorlovespitch/Bb3.mp3"));
-audio.push(new Audio("/colorlovespitch/B3.mp3"));
+audio.push(new Audio("/C4.mp3"));
+audio.push(new Audio("/Db4.mp3"));
+audio.push(new Audio("/D4.mp3"));
+audio.push(new Audio("/Eb4.mp3"));
+audio.push(new Audio("/E4.mp3"));
+audio.push(new Audio("/F3.mp3"));
+audio.push(new Audio("/Gb3.mp3"));
+audio.push(new Audio("/G3.mp3"));
+audio.push(new Audio("/Ab3.mp3"));
+audio.push(new Audio("/A3.mp3"));
+audio.push(new Audio("/Bb3.mp3"));
+audio.push(new Audio("/B3.mp3"));
 
 let Quiz = ({ className }) => {
   const [numOfQuiz, setNumOfQuiz] = useState(0);
